@@ -12,18 +12,19 @@ package backEnd;
  */
 public class Calculadora  {
     
-    public static String hola(){
-        return "hola desde java";
-    }
+    //se suman los numeros con este metodo
     public static int sumar(int num1, int num2){
         return num1+num2;
     }
+    //este metodo es para multiplicar los numeros
     public static int multiplicar(int num1, int num2){        
         return num1*num2;
     }
+    //con este metodo se hace la potenciacion de los numeros
     public static int potencia(int num1, int num2){        
         return (int)Math.pow(num1, num2);
     }    
+    //el metodo para converitr de decimal a binario
     public static String binario(int num1){
         if (num1 <= 0) {
             return "0";
