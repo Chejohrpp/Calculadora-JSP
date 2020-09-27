@@ -35,6 +35,12 @@
         <p><%= Calculadora.multiplicar(num1,num2) %></p> <!llamamos al metodo de multiplicar y lo agregamos en un parrafo>
         <% } %> 
         
+        <!verificamos si el radio del mayor fue seleccionado>
+        <% if(request.getParameter("mayor") != null){ %>
+        <h1>El numero mayor es: </h1>
+        <p><%= Calculadora.mayor(num1,num2) %></p> <!llamamos al metodo de mayor y lo agregamos en un parrafo>
+        <% } %> 
+        
          <!verificamos si el radio de la potencia fue seleccionado>
         <% if(request.getParameter("potencia") != null){ %>
         <h1>Potencia: </h1>

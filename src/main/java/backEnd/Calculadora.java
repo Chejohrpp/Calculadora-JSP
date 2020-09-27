@@ -37,6 +37,12 @@ public class Calculadora  {
         }
         return String.valueOf(cadena);
     }
+    public static int mayor(int num1,int num2){
+        if (num1 > num2) {
+            return num1;
+        }
+        return num2;
+    }
     
     
 }

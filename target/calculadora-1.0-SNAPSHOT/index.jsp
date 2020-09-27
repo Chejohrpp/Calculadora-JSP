@@ -36,6 +36,11 @@
                  <br />
                  <br />
                  <label>
+                     <input type="radio" name="mayor" value="1" />Numero Mayor                  
+                 </label>
+                 <br />
+                 <br />
+                 <label>
                      <input type="radio" name="potencia" value="1" />Potencia (numero 1) ^ (numero 2)
                  </label>
                     <br />
