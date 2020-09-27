@@ -5,7 +5,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Calculadora</title>
-        <!Aplicamos un poco de estilo a la pagina >
+        <%--Aplicamos un poco de estilo a la pagina --%>
         <style>
             <%@include file="estilo.css" %>
         </style>

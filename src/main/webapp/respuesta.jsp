@@ -11,7 +11,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Calculadora</title>
-        <!aplicamos el mismo estilo que el index.jsp >
+        <%--aplicamos el mismo estilo que el index.jsp--%>
         <style>
             <%@include file="estilo.css" %>
         </style>
